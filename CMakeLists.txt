@@ -5,6 +5,7 @@ project (rt2d)
 # delete CMakeCache.txt from the build directory when you edit these options
 ####################################################################
 OPTION(MAKE_START "Make RT2D start application" ON)
+OPTION(MAKE_SPACESHOOTER "Make RT2D start spaceshooter application" ON)
 OPTION(MAKE_DEMO "Make RT2D demo (tests) application" ON)
 OPTION(MAKE_CANVAS_DEMO "Make RT2D Canvas demo (tests) application" ON)
 OPTION(MAKE_FLOCKING "Make flocking application" ON)
